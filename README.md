@@ -11,5 +11,6 @@ UTD_MHAD - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
 ## Python Libraries
 Pandas, Numpy, Matplotlib, Keras, Seaborn, Scikit-Learn and PyTorch.
 ## File Structure
-There are four files detailing all the code written for this project. One data preprocessing file. Three experimental files (one for each dataset), where CNN-based feature extraction is performed to classify the desired physical activities. 
+There are four files detailing all the code written for this project. One data preprocessing file. Three experimental files (one for each dataset).
 ## Project Overview
+where CNN-based feature extraction is performed to classify the desired physical activities and critical analysis is conducted to assess the impacts of various sample generation parameters and features of each dataset.
