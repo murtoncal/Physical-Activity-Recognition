@@ -5,3 +5,4 @@ UCI_HAR - https://archive.ics.uci.edu/dataset/240/human+activity+recognition+usi
 USC_HAD - https://sipi.usc.edu/had/ <br />
 UTD_MHAD - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
 ## Python Libraries
+Pandas, Numpy, Matplotlib, Keras, Seaborn, Scikit-Learn.
