@@ -6,3 +6,4 @@ USC_HAD - https://sipi.usc.edu/had/ <br />
 UTD_MHAD - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
 ## Python Libraries
 Pandas, Numpy, Matplotlib, Keras, Seaborn, Scikit-Learn and PyTorch.
+## File Structure
