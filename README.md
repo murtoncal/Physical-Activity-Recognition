@@ -1,4 +1,6 @@
 # Physical-Activity-Recognition
+This GitHub Respo is a condensed version of my MSc Data Analytics dissertation project 'Investigating Deep Learning Techniques for Physical Activity Recognition Using Cost-Effective Wearable Devices'
+
 A project investigating how modern physical activity recognition (PAR) is conducted. This includes assessing the implications of cost-effective and wearable activity recognition and exploring areas of the field where standardisation has the potential to be enhanced. 
 ## Datasets
 UCI_HAR - https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones <br />
