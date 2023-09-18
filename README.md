@@ -15,6 +15,6 @@ There are four files detailing all the code written for this project. One data p
 ## Project Overview
 Three datasets of varying features were chosen to apply a CNN model and perform PAR. The data contained within each dataset are the raw triaxial sensor readings of an accelerometer and a gyroscope, where the different positions of the sensors seen in the table below replicate the likely positions of a smart device on a user in a free-living environment.
 
-![alt text](https://github.com/murtoncal/Physical-Activity-Recognition/blob/images/Diss_data_table.png?raw=true)
+![alt text](https://github.com/murtoncal/Physical-Activity-Recognition/images/Diss_data_table.png?raw=true)
 
 where CNN-based feature extraction is performed to classify the desired physical activities and critical analysis is conducted to assess the impacts of various sample generation parameters and features of each dataset.
