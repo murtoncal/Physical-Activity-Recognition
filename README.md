@@ -17,7 +17,7 @@ Three datasets of varying features were chosen to apply a CNN model and perform 
 
 <p align="center">
 ![alt text](https://github.com/murtoncal/Physical-Activity-Recognition/blob/main/images/Diss_data_table.png?raw=true)
-<p.
+<\p>
 
 
 where CNN-based feature extraction is performed to classify the desired physical activities and critical analysis is conducted to assess the impacts of various sample generation parameters and features of each dataset.
