@@ -22,7 +22,7 @@ Three datasets of varying features were chosen to apply a CNN model and perform 
 <img src="/images/Diss_data_table.png" width="800" align="center"/>
 </p>
 
-### DL Model
+### CNN Model
 
 ### Findings
 
