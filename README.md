@@ -13,10 +13,20 @@ Pandas, Numpy, Matplotlib, Keras, Seaborn, Scikit-Learn and PyTorch.
 ## File Structure
 There are four files detailing all the code written for this project. One data preprocessing file. Three experimental files (one for each dataset).
 ## Project Overview
-Three datasets of varying features were chosen to apply a CNN model and perform PAR. The data contained within each dataset are the raw triaxial sensor readings of an accelerometer and a gyroscope, where the different positions of the sensors seen in the table below replicate the likely positions of a smart device on a user in a free-living environment.
+### ML Pipeline
+
+### Data Preprocessing
+Three datasets of varying features were chosen to apply a CNN model and perform PAR. The data contained within each dataset are the raw triaxial sensor readings of an accelerometer and a gyroscope, where the different positions of the sensors replicate the likely positions of a smart device on a user in a free-living environment. The table below shows the characteristics of each dataset.
 
 <p align="center">
 <img src="/images/Diss_data_table.png" width="800" align="center"/>
 </p>
+
+### DL Model
+
+### Findings
+
+
+
 
 where CNN-based feature extraction is performed to classify the desired physical activities and critical analysis is conducted to assess the impacts of various sample generation parameters and features of each dataset.
