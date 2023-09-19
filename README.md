@@ -17,7 +17,7 @@ There are four files detailing all the code written for this project. One data p
 A machine learning pipeline is an end-to-end graph designed to streamline machine learning workflows. The deep learning pipeline for each experiment in this study can be seen below.
 
 <p align="center">
-<img src="/images/Pipeline.png" width="800" align="center"/>
+<img src="/images/Pipeline.png" width="80" align="center"/>
 </p>
 
 ### Data Preprocessing
