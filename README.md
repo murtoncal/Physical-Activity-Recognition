@@ -16,6 +16,10 @@ There are four files detailing all the code written for this project. One data p
 ### ML Pipeline
 A machine learning pipeline is an end-to-end graph designed to streamline machine learning workflows. The deep learning pipeline for each experiment in this study can be seen below.
 
+<p align="center">
+<img src="/images/Pipeline.png" width="800" align="center"/>
+</p>
+
 ### Data Preprocessing
 Three datasets of varying features were chosen to apply a CNN model and perform PAR. The data contained within each dataset are the raw triaxial sensor readings of an accelerometer and a gyroscope, where the different positions of the sensors replicate the likely positions of a smart device on a user in a free-living environment. The table below shows the characteristics of each dataset.
 
