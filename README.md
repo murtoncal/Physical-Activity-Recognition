@@ -73,3 +73,6 @@ def CNN(X_train, y_train, filters):
 
 ### Findings
 
+<p align="center">
+<img src="/images/diss_results.png" width="650" align="center"/>
+</p>
