@@ -43,7 +43,32 @@ Further preprocessing stages include a data noise reduction filter, data normali
 The CNN model comprises of two 2D convolutional layers with convolutional and max pooling stages. These then connect to a fully connected layer and a soft-max classifier to make activity recognition predictions. The following function creates this CNN model in Python, using the Keras library imported from TensorFlow.
 
 '''
-f
+# creating model
+def CNN(X_train, y_train, filters):
+    # no. of activities for the units of the final fully connected layer
+    no_activities = len(np.unique(y_train))
+    # enables the stacking of layers into a model 
+    model = Sequential()
+    # stacking layers
+    # first convolution
+    model.add(Conv2D(filters=filters, kernel_size=(5,5),padding='same',input_shape=X_train.shape[1:], activation='relu'))
+    # max pooling of size 2
+    model.add(MaxPooling2D(2,2))
+    # second convolution, filter size is doubled
+    model.add(Conv2D(filters=filters*2,kernel_size=(3,3),padding='same',activation='relu'))
+    # max pooling of size 2
+    model.add(MaxPooling2D(2,2))
+    # flattern the data
+    model.add(Flatten())
+    # fully connected layers
+    model.add(Dense(units=100,activation='relu'))
+    model.add(Dense(units=no_activities, activation='softmax'))
+    # summarises the model
+    model.summary()
+    # compliing the model defines the loss function, optimiser and the metrics
+    model.compile(optimizer='adam', loss = 'categorical_crossentropy', metrics=['accuracy'])
+    # returns the CNN model
+    return model
 '''
 
 ### Findings
