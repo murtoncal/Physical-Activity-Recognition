@@ -35,7 +35,7 @@ Each set of continuous strings of triaxial accelerometer and gyroscope sensor re
 <img src="/images/slide.png" width="650" align="center"/>
 </p>
 
-
+Further preprocessing stages include a data noise reduction filter, data normalisation, and one-hot encoding of the activity labels.
 
 
 ### CNN Model
