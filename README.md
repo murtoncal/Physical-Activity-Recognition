@@ -36,6 +36,8 @@ Each set of continuous strings of triaxial accelerometer and gyroscope sensor re
 </p>
 
 
+
+
 ### CNN Model
 
 ### Findings
