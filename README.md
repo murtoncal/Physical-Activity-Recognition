@@ -73,7 +73,3 @@ def CNN(X_train, y_train, filters):
 
 ### Findings
 
-
-
-
-where CNN-based feature extraction is performed to classify the desired physical activities and critical analysis is conducted to assess the impacts of various sample generation parameters and features of each dataset.
