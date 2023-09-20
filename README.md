@@ -17,14 +17,14 @@ There are four files detailing all the code written for this project. One data p
 A machine learning pipeline is an end-to-end graph designed to streamline machine learning workflows. The deep learning pipeline for each experiment in this study can be seen below.
 
 <p align="center">
-<img src="/images/Pipeline.png" width="200" align="center"/>
+<img src="/images/Pipeline.png" width="150" align="center"/>
 </p>
 
 ### Data Preprocessing
 Three datasets of varying features were chosen to apply a CNN model and perform PAR. The data contained within each dataset are the raw triaxial sensor readings of an accelerometer and a gyroscope, where the different positions of the sensors replicate the likely positions of a smart device on a user in a free-living environment. The table below shows the characteristics of each dataset.
 
 <p align="center">
-<img src="/images/Diss_data_table.png" width="800" align="center"/>
+<img src="/images/Diss_data_table.png" width="600" align="center"/>
 </p>
 
 The preprocessing procedure of each of the three datasets is slightly different due to minor variations in their raw data. The first variation is within the UCI-HAR dataset, as its activities were performed one after another during the data collection process, unlike the other two datasets, with their activities recorded disconnected from one another. The second variation is within the USC-HAD dataset due to its larger sampling frequency than the two other datasets.
@@ -32,7 +32,7 @@ The preprocessing procedure of each of the three datasets is slightly different 
 Each set of continuous strings of triaxial accelerometer and gyroscope sensor readings form an activity graph, split into sliding windows with a defined window length and overlap between the windows. Please refer to the figure below.
 
 <p align="center">
-<img src="/images/slide.png" width="650" align="center"/>
+<img src="/images/slide.png" width="480" align="center"/>
 </p>
 
 Further preprocessing stages include a data noise reduction filter, data normalisation, and one-hot encoding of the activity labels.
