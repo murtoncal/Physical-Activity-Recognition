@@ -76,5 +76,5 @@ def CNN(X_train, y_train, filters):
 The results of each experiment in this project can be seen below. The chosen evaluation metrics for activity recognition performance are F-Measure and computational cost. Various sample generation parameters were used to investigate their importance for activity recognition. 
 
 <p align="center">
-<img src="/images/diss_results.png" width="650" align="center"/>
+<img src="/images/diss_results.png" width="575" align="center"/>
 </p>
