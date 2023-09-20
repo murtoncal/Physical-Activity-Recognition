@@ -27,6 +27,8 @@ Three datasets of varying features were chosen to apply a CNN model and perform 
 <img src="/images/Diss_data_table.png" width="800" align="center"/>
 </p>
 
+The preprocessing procedure of each of the three datasets is slightly different due to minor variations in their raw data. The first variation is within the UCI-HAR dataset as its activities were performed one after another during the data collection process, unlike the other two datasets, with their activities recorded disconnected from one another. The second variation is within the USC-HAD dataset due to its larger sampling frequency than the two other datasets.
+
 ### CNN Model
 
 ### Findings
