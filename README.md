@@ -32,7 +32,7 @@ The preprocessing procedure of each of the three datasets is slightly different 
 Each set of continuous strings of triaxial accelerometer and gyroscope sensor readings form an activity graph, split into sliding windows with a defined window length and overlap between the windows. Please refer to the figure below.
 
 <p align="center">
-<img src="/images/slide.png" width="800" align="center"/>
+<img src="/images/slide.png" width="500" align="center"/>
 </p>
 
 
