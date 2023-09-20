@@ -40,6 +40,12 @@ Further preprocessing stages include a data noise reduction filter, data normali
 
 ### CNN Model
 
+The CNN model comprises of two 2D convolutional layers with convolutional and max pooling stages. These then connect to a fully connected layer and a soft-max classifier to make activity recognition predictions. The following function creates this CNN model in Python, using the Keras library imported from TensorFlow.
+
+'''
+f
+'''
+
 ### Findings
 
 
